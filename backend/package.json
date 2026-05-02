@@ -1,0 +1,37 @@
+{
+  "name": "ips-inventario-backend",
+  "version": "1.0.0",
+  "description": "Backend para Sistema de Gestión de Inventario IPS",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/utils/seeder.js"
+  },
+  "keywords": [
+    "inventario",
+    "salud",
+    "ips"
+  ],
+  "author": "Tu nombre",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.6.1",
+    "exceljs": "^4.3.0",
+    "express": "^4.22.1",
+    "express-rate-limit": "^6.11.2",
+    "express-validator": "^7.3.1",
+    "helmet": "^7.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^7.8.8",
+    "morgan": "^1.10.1",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
